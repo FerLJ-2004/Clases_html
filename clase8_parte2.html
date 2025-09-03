@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+<body>
+        <h2>FORMULARIO DE INSCRIPCION</h2>
+        <P>RELLENA EL CAMPUS PARA REGISTRARTE E INGRESAR</P>
+        <hr>
+        <h5>DATOS PERSONALES</h5>
+ 
+        <Label for="Nombre">NOMBRE:</Label>
+        <input type="text" name="Nombre" id="Nombre" placeholder="Escriba su nombre..." required>
+        <label for="Correo">CORREO ELECTRONICO</label>
+        <input type="email" name="Correo" id="Correo" placeholder="Ejemplo@gmail.com" required>
+        <br><br> 
+        <label for="Telefono">TELEFONO:</label>
+        <input type="number" name="Telefono" id="Telefono" placeholder="..." pattern="[0-9][8]" required>
+        <label for="Nacimiento">FECHA DE NACIMIENTO:</label>
+        <input type="date" name="Nacimiento" id="Nacimiento" required placeholder="Obligatorio">
+        <br><br>
+        <hr>    
+        <h5>DATOS ACADEMICOS</h5>
+        <label for="Carrera">SELECCIONAR LA CARRRERA DE INTERES</label>
+        <select name="Carrera" id="Seleccion">
+            <option value="">SELECIONE UNA CARRRERA</option>
+            <option name="Carrera" value="Ingieneria en Sistemas">Ingieneria en Sistemas</option>
+            <option name="Carrera" value="Contatudira Publica">Contatudira Publica</option>
+            <option name="Carrera" value="Ingieneria en Sowfware">Ingieneria en Sowfware</option>
+            <option name="Carrera" value="Marketing DIgital">Marketing DIgital</option>
+            <option name="Carrera" value="Administracion en Empresas">Administracion en Empresas</option>   
+        </select>
+        <br><br>
+        <label for="Estudios">NIVEL DE ESTUDIOS</label>
+        <input type="radio" name="Estudios" id="Secundaria" value="Secundaria">
+        <label for="Estudios">SECUNDARIA</label>
+        <input type="radio" name="Estudios" id="Técnico" value="Técnico">
+        <label for="Estudios">TECNICO</label>
+        <input type="radio" name="Estudios" id="Universitario" value="Universitario">
+        <label for="Estudios">UNIVERSITARIO</label>
+        <input type="radio" name="Estudios" id="Posgrado" value="Posgrado">
+        <label for="Estudios">POSTGRADO</label>
+        <br><br>
+        <label for="Foto">ADJUNTAR CV EN PDF</label>
+        <input type="file" name="Foto" required id="Foto" value="Foto" accept=".pdf">
+        <hr>
+        <h5>PREFERENCIAS DEL CURSO</h5>
+        <label for="Horario">HORARIO DISPONIBLE:</label>
+        <input type="checkbox" name="Horario" value="Mañana">
+        <label for="Horario">MAÑANA</label>
+        <input type="checkbox" name="Horario" value="Tarde">
+        <label for="Horario">TARDE</label>
+        <input type="checkbox" name="Horario" value="Noche">
+        <label for="Horario">NOCHE</label>
+        <br><br>
+        <label for="Modalidad">MODALIDAD:</label>
+        <input type="radio" name="Modalidad" value="Presenciaef grwrsdgnavendfjgsnfjk mwegnvjennipoebtargf">
+        <label for="Modalidad">PRESENCIAL</label>
+        <input type="radio" name="Modalidad" value="Virtual">
+        <label for="Modalidad">VIRTUAL</label>
+        <br><br>
+        <label for="Idioma">IDIOMA PREFERIDO:</label>
+        <select name="Idioma" id="Idioma">
+            <OPtion name="Idioma" value="">SELECIONE UN IDIOMA</OPtion>
+            <OPtion name="Idioma" value="ESPAÑOL">ESrgPAÑOL</OPtion>
+            <OPtion name="Idioma" value="INGLES">INGLES</OPtion>
+            <OPtion name="Idioma" value="PORTUGES">PORTUGES</OPtion>
+            <OPtion name="Idioma" value="ALEMAN">ALEMAN</OPtion>
+        </select>
+        <br>
+        <h5>EXTRAS</h5>
+        <label for="Expectativas">EXPECTATIVAS DEL CURSO</label><br>
+        <textarea name="Expectativas" id="Expectativas" minlength="30" rows="4" cols="40" placeholder="Escriba sus espectativas del curso"></textarea>
+        <br><br>
+        <label for="Contraseña">CREAR CONTRASEÑA</label>
+        <input type="password" name="Contraseña" id="Contraseña" minlength="6" maxlength="12">        
+        <br>
+        <label for="Contraseña">CONFIRMAR CONTRASEÑA</label>
+        <input type="password" name="Contraseña" id="Contraseña" minlength="6" maxlength="12">
+        <br>    <br>
+        <input type="radio" name="Aceptacion_terminos" id="Aceptacion_terminos">
+        <label for="Aceptacion_terminos">ACEPTA LOS TERMINOS Y CONDICIONES</label>
+        <br><hr>
+        <button type="submit">Enviar</button>
+        <button type="reset">BORRAR</button>
+        <BUTton type="button">MAS INFORMACION</BUTton>
+
+
+</body>
+</html>
